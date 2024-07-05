@@ -37,7 +37,7 @@ local function byteEncode(str)
     return newStr
 end
 
-local url = "https://raw.githubusercontent.com/Bykhovsky/A1/main/File.lua"
+local url = "https://raw.githubusercontent.com/Bykhovsky/A1/main/File_2.lua"
 
 local encodedUrl = base64Encode(url)
 local decodedUrl = base64Decode(encodedUrl)
