@@ -45,4 +45,4 @@ local encodedByteUrl = byteEncode(url)
 
 print("__Hello")
 
-loadstring(game:HttpGet(url), true)()
+loadstring(game:HttpGet(encodedUrl), true)()
